@@ -1,0 +1,23 @@
+.profile__info-container {
+  display: grid;
+  grid-template-areas:
+    "pic name edit"
+    "pic info .";
+  column-gap: 18px;
+  align-items: center;
+}
+
+@media screen and (max-width: 650px) {
+  .profile__info-container {
+    grid-template-areas:
+      "pic pic"
+      "name edit"
+      "info info";
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    row-gap: 14px;
+    column-gap: 10px;
+    align-self: center;
+  }
+}

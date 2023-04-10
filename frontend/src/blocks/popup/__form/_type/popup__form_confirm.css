@@ -1,0 +1,10 @@
+.popup__form_confirm{
+    width: 430px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px 34px 36px 37px;
+    z-index: 2;
+    box-sizing: border-box;
+    position: relative;
+}

@@ -1,0 +1,13 @@
+.card__delete-button{
+    background-image: url(../../../images/Trash.svg);
+    border: none;
+    outline: 0;
+    width: 18px;
+    min-height: 19px;
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 244px;
+    z-index: 2;
+}

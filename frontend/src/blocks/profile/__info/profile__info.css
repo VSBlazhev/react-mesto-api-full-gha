@@ -1,0 +1,23 @@
+.profile__info {
+  grid-area: info;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 12px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 650px) {
+  .profile__info {
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 0;
+  }
+}

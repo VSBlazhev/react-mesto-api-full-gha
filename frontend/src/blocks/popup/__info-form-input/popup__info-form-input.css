@@ -1,0 +1,21 @@
+.popup__info-form-input {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid rgba(0 0 0 /20%);
+  padding-bottom: 13px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+@media screen and (max-width: 650px) {
+  .popup__info-form-input:last-of-type {
+    margin-bottom: 45px;
+  }
+}

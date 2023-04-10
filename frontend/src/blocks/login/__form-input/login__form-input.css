@@ -1,0 +1,15 @@
+.login__form-input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #CCCCCC;
+    box-sizing: border-box;
+    color: #f7eeee;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 30px;
+    outline: none;
+    padding-bottom: 13px;
+    width: 100%;
+}
