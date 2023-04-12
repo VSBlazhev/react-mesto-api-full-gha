@@ -64,7 +64,7 @@ export class Auth {
 }
 
 const auth = new Auth({
-  baseUrl: 'http://localhost:3000',
+  baseUrl: 'http://api.blazhev.mesto.nomoredomains.monster',
   headers: {
     "Content-Type": "application/json",
   },

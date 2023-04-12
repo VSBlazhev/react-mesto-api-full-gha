@@ -94,7 +94,7 @@ export class Api {
 }
 
 const api = new Api({
-    baseUrl: 'http://localhost:3000',
+    baseUrl: 'http://api.blazhev.mesto.nomoredomains.monster',
     headers: {
       'Content-Type': 'application/json'
     }
