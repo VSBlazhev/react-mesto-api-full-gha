@@ -6,13 +6,13 @@ const { NODE_ENV, JWT_SECRET } = process.env;
 function Auth(req, res, next) {
   const token = req.cookies.jwt;
   if (!token) {
-    return new AuthorizationError('Необходима авторизация');
+    next(new AuthorizationError('Необходима авторизация'));
   }
   let payload;
   try {
     payload = jwt.verify(token, NODE_ENV === 'production' ? JWT_SECRET : 'key');
   } catch (err) {
-    return new AuthorizationError('Необходима авторизация');
+    next(new AuthorizationError('Необходима авторизация'));
   }
   req.user = payload;
   next();
