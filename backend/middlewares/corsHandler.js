@@ -2,6 +2,8 @@ const allowedCors = [
   'http://localhost:3001',
   'http://blazhev.mesto.nomoredomains.monster',
   'https://blazhev.mesto.nomoredomains.monster',
+  'https://api.blazhev.mesto.nomoredomains.monster',
+  'http://api.blazhev.mesto.nomoredomains.monster',
 ];
 
 module.exports = (req, res, next) => {
